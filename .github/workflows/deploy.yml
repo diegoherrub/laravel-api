@@ -3,6 +3,11 @@ name: Deploy to Server
 on:
   push:
     branches:
+      - main  # Solo se ejecuta cuando hay un push a main
+  pull_request:
+    types:
+      - closed  # Solo se ejecutará cuando el Pull Request se cierre (normalmente tras un merge)
+    branches:
       - main
 
 jobs:
@@ -20,4 +25,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./  # Directorio local a subir
-        server-dir: /  # Ruta en el servidor
+        server-dir: /api-avila-digital/  # Ruta en el servidor
