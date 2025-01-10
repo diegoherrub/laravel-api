@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('pharmacies', function (Blueprint $table) {
             $table->id(); // id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
-            $table->string('name_pharmacy', 32)->unique(); // VARCHAR(32) NOT NULL UNIQUE
+            $table->string('name_pharmacy', 32); // VARCHAR(32) NOT NULL UNIQUE
             $table->string('range_date', 32); // VARCHAR(32) NOT NULL
             $table->string('location', 64); // VARCHAR(64) NOT NULL
             $table->string('phone', 16); // VARCHAR(16) NOT NULL

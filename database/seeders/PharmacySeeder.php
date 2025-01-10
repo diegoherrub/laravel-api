@@ -22,6 +22,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921543939',
                 'day' => '21',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -30,6 +32,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929609992',
                 'day' => '31',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -38,6 +42,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923274201',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -46,6 +52,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923542752',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -54,6 +62,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923274201',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -62,6 +72,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923274201',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -70,6 +82,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923274201',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -78,6 +92,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924881229',
                 'day' => '29',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -86,6 +102,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929609992',
                 'day' => '31',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -94,6 +112,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921543939',
                 'day' => '21',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -102,6 +122,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -110,6 +132,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -118,6 +142,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -126,6 +152,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -134,6 +162,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -142,6 +172,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -150,6 +182,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -158,6 +192,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -166,6 +202,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -174,6 +212,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -182,6 +222,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -190,6 +232,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -198,6 +242,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -206,6 +252,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -214,6 +262,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -222,6 +272,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -230,6 +282,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -238,6 +292,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -246,6 +302,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -254,6 +312,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -262,6 +322,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -270,6 +332,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -278,6 +342,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -286,6 +352,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -294,6 +362,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -302,6 +372,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -310,6 +382,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -318,6 +392,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -326,6 +402,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -334,6 +412,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -342,6 +422,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -350,6 +432,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926702962',
                 'day' => '1',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -358,6 +442,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -366,6 +452,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -374,6 +462,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -382,6 +472,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -390,6 +482,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -398,6 +492,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -406,6 +502,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -414,6 +512,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -422,6 +522,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -430,6 +532,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -438,6 +542,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -446,6 +552,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -454,6 +562,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -462,6 +572,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -470,6 +582,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -478,6 +592,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -486,6 +602,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -494,6 +612,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -502,6 +622,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -510,6 +632,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -518,6 +642,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -526,6 +652,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -534,6 +662,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -542,6 +672,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -550,6 +682,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -558,6 +692,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -566,6 +702,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -574,6 +712,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -582,6 +722,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -590,6 +732,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -598,6 +742,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -606,6 +752,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -614,6 +762,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -622,6 +772,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -630,6 +782,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -638,6 +792,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -646,6 +802,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -654,6 +812,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -662,6 +822,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -670,6 +832,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -678,6 +842,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -686,6 +852,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -694,6 +862,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -702,6 +872,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -710,6 +882,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -718,6 +892,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -726,6 +902,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -734,6 +912,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -742,6 +922,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926702962',
                 'day' => '1',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -750,6 +932,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -758,6 +942,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -766,6 +952,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -774,6 +962,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -782,6 +972,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -790,6 +982,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -798,6 +992,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -806,6 +1002,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -814,6 +1012,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -822,6 +1022,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -830,6 +1032,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923176009',
                 'day' => '5',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -838,6 +1042,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -846,6 +1052,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -854,6 +1062,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -862,6 +1072,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -870,6 +1082,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -878,6 +1092,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -886,6 +1102,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -894,6 +1112,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -902,6 +1122,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -910,6 +1132,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923176009',
                 'day' => '5',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -918,6 +1142,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -926,6 +1152,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -934,6 +1162,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -942,6 +1172,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -950,6 +1182,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -958,6 +1192,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -966,6 +1202,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -974,6 +1212,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -982,6 +1222,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -990,6 +1232,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923176009',
                 'day' => '5',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -998,6 +1242,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1006,6 +1252,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1014,6 +1262,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1022,6 +1272,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1030,6 +1282,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1038,6 +1292,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1046,6 +1302,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1054,6 +1312,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1062,6 +1322,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1070,6 +1332,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1078,6 +1342,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1086,6 +1352,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1094,6 +1362,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1102,6 +1372,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1110,6 +1382,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1118,6 +1392,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1126,6 +1402,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1134,6 +1412,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1142,6 +1422,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1150,6 +1432,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1158,6 +1442,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1166,6 +1452,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1174,6 +1462,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1182,6 +1472,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1190,6 +1482,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1198,6 +1492,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1206,6 +1502,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1214,6 +1512,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1222,6 +1522,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1230,6 +1532,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1238,6 +1542,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1246,6 +1552,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1254,6 +1562,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1262,6 +1572,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1270,6 +1582,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1278,6 +1592,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1286,6 +1602,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926702962',
                 'day' => '1',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1294,6 +1612,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1302,6 +1622,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1310,6 +1632,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1318,6 +1642,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1326,6 +1652,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1334,6 +1662,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1342,6 +1672,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1350,6 +1682,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1358,6 +1692,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1366,6 +1702,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1374,6 +1712,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1382,6 +1722,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1390,6 +1732,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926702962',
                 'day' => '1',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1398,6 +1742,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1406,6 +1752,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1414,6 +1762,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1422,6 +1772,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1430,6 +1782,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1438,6 +1792,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1446,6 +1802,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1454,6 +1812,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1462,6 +1822,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1470,6 +1832,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1478,6 +1842,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1486,6 +1852,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1494,6 +1862,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1502,6 +1872,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1510,6 +1882,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1518,6 +1892,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1526,6 +1902,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1534,6 +1912,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1542,6 +1922,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1550,6 +1932,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1558,6 +1942,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1566,6 +1952,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1574,6 +1962,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1582,6 +1972,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1590,6 +1982,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1598,6 +1992,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1606,6 +2002,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1614,6 +2012,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1622,6 +2022,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1630,6 +2032,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1638,6 +2042,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1646,6 +2052,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1654,6 +2062,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1662,6 +2072,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1670,6 +2082,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1678,6 +2092,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1686,6 +2102,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1694,6 +2112,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1702,6 +2122,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1710,6 +2132,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1718,6 +2142,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1726,6 +2152,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1734,6 +2162,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1742,6 +2172,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1750,6 +2182,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1758,6 +2192,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1766,6 +2202,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1774,6 +2212,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1782,6 +2222,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1790,6 +2232,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1798,6 +2242,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1806,6 +2252,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1814,6 +2262,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1822,6 +2272,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1830,6 +2282,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1838,6 +2292,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1846,6 +2302,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1854,6 +2312,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1862,6 +2322,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1870,6 +2332,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1878,6 +2342,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1886,6 +2352,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -1894,6 +2362,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1902,6 +2372,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1910,6 +2382,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1918,6 +2392,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1926,6 +2402,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1934,6 +2412,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -1942,6 +2422,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1950,6 +2432,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1958,6 +2442,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1966,6 +2452,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1974,6 +2462,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -1982,6 +2472,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -1990,6 +2482,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -1998,6 +2492,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2006,6 +2502,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2014,6 +2512,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2022,6 +2522,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2030,6 +2532,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2038,6 +2542,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2046,6 +2552,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2054,6 +2562,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2062,6 +2572,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2070,6 +2582,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2078,6 +2592,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2086,6 +2602,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2094,6 +2612,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2102,6 +2622,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2110,6 +2632,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2118,6 +2642,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2126,6 +2652,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2134,6 +2662,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2142,6 +2672,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2150,6 +2682,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2158,6 +2692,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2166,6 +2702,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2174,6 +2712,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2182,6 +2722,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926702962',
                 'day' => '1',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2190,6 +2732,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2198,6 +2742,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2206,6 +2752,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923176009',
                 'day' => '5',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2214,6 +2762,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2222,6 +2772,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2230,6 +2782,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2238,6 +2792,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2246,6 +2802,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2254,6 +2812,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922158435',
                 'day' => '14',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2262,6 +2822,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2270,6 +2832,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2278,6 +2842,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921057836',
                 'day' => '16',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2286,6 +2852,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2294,6 +2862,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921027910',
                 'day' => '4',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2302,6 +2872,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2310,6 +2882,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924118884',
                 'day' => '11',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2318,6 +2892,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2326,6 +2902,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2334,6 +2912,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2342,6 +2922,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2350,6 +2932,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2358,6 +2942,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2366,6 +2952,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2374,6 +2962,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923176009',
                 'day' => '5',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2382,6 +2972,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2390,6 +2982,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2398,6 +2992,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2406,6 +3002,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2414,6 +3012,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2422,6 +3022,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2430,6 +3032,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2438,6 +3042,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2446,6 +3052,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2454,6 +3062,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2462,6 +3072,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '923176009',
                 'day' => '5',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2470,6 +3082,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2478,6 +3092,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2486,6 +3102,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2494,6 +3112,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2502,6 +3122,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2510,6 +3132,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2518,6 +3142,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2526,6 +3152,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2534,6 +3162,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924225685',
                 'day' => '18',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2542,6 +3172,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926995552',
                 'day' => '5',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2550,6 +3182,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2558,6 +3192,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2566,6 +3202,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2574,6 +3212,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2582,6 +3222,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2590,6 +3232,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2598,6 +3242,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924250821',
                 'day' => '29',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2606,6 +3252,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2614,6 +3262,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929342782',
                 'day' => '8',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2622,6 +3272,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921963830',
                 'day' => '10',
                 'month' => '2',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2630,6 +3282,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2638,6 +3292,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2646,6 +3302,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2654,6 +3312,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928652546',
                 'day' => '27',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2662,6 +3322,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2670,6 +3332,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929386488',
                 'day' => '9',
                 'month' => '7',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2678,6 +3342,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '921778962',
                 'day' => '14',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2686,6 +3352,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2694,6 +3362,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927814070',
                 'day' => '7',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2702,6 +3372,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2710,6 +3382,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2718,6 +3392,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2726,6 +3402,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2734,6 +3412,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2742,6 +3422,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922781469',
                 'day' => '30',
                 'month' => '6',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2750,6 +3432,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2758,6 +3442,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926602324',
                 'day' => '25',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2766,6 +3452,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2774,6 +3462,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia López',
@@ -2782,6 +3472,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '925121138',
                 'day' => '9',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2790,6 +3482,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '922922279',
                 'day' => '10',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2798,6 +3492,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2806,6 +3502,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '927023391',
                 'day' => '20',
                 'month' => '3',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2814,6 +3512,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929189738',
                 'day' => '18',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2822,6 +3522,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924872917',
                 'day' => '9',
                 'month' => '1',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2830,6 +3532,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928561433',
                 'day' => '3',
                 'month' => '12',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2838,6 +3542,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926478851',
                 'day' => '12',
                 'month' => '9',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2846,6 +3552,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2854,6 +3562,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2862,6 +3572,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929893978',
                 'day' => '21',
                 'month' => '10',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2870,6 +3582,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2878,6 +3592,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '928227414',
                 'day' => '11',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2886,6 +3602,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2894,6 +3612,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Fernández',
@@ -2902,6 +3622,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926216972',
                 'day' => '1',
                 'month' => '8',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Romero',
@@ -2910,6 +3632,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926702962',
                 'day' => '1',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2918,6 +3642,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '929245917',
                 'day' => '19',
                 'month' => '5',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia García',
@@ -2926,6 +3652,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '924110202',
                 'day' => '7',
                 'month' => '4',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'name_pharmacy' => 'Farmacia Pérez',
@@ -2934,6 +3662,8 @@ class PharmacySeeder extends Seeder
                 'phone' => '926729237',
                 'day' => '23',
                 'month' => '11',
+                'created_at' => now(),
+                'updated_at' => now(),
             ]
         ]);
     }
