@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PharmacyController;
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\SourceEventsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('pharmacies', PharmacyController::class);
+
+Route::apiResource('events', EventController::class);
+
+Route::apiResource('source-events', SourceEventsController::class);
