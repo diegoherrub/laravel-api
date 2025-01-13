@@ -19,4 +19,14 @@ class Event extends Model
         'source',
         'source',
     ];
+
+    public function sourceEvents(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(SourceEvents::class, 'source', 'id');
+    }
+
+    public function filesEvents(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(FilesEvents::class, 'id_event', 'id');
+    }
 }
