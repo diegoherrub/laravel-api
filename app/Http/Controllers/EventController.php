@@ -12,11 +12,8 @@ class EventController extends Controller
      */
     public function index(): \Illuminate\Http\JsonResponse
     {
-        try {
-            $events = Event::with('sourceEvents', 'filesEvents')->get();
-            return response()->json($events); // Envuelve la colección en una respuesta JSON
-        } catch (\Exception $e) {
-            return response()->json(['error' => $e->getMessage()], 500); // Manejo de errores
-        }
+        $events = Event::with('sourceEvents', 'filesEvents')->get();
+        return response()->json($events); // Envuelve la colección en una respuesta JSON
+
     }
 }

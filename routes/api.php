@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PharmacyController;
 use App\Http\Controllers\EventController;
-use App\Http\Controllers\SourceEventsController;
+use App\Http\Controllers\MovieController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +25,6 @@ Route::apiResource('pharmacies', PharmacyController::class);
 Route::get('/pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']);
 
 Route::apiResource('events', EventController::class);
+
+Route::apiResource('movies', MovieController::class);
 
