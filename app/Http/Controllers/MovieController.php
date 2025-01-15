@@ -12,7 +12,10 @@ class MovieController extends Controller
      */
     public function index(): \Illuminate\Http\JsonResponse
     {
-        $movies = Movie::with('times')->get();
+        $movies = Movie::with('times')->get()->map(function ($movie) {
+            $movie->times->each->makeHidden('pivot');
+            return $movie;
+        });
         return response()->json($movies);
     }
 }
