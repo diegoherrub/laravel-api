@@ -13,12 +13,16 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // Llamar al seeder de farmacias
-        $this->call(PharmacySeeder::class);
-        $this->call(SourceEventsSeeder::class);
-        $this->call(EventsSeeder::class);
-        $this->call(FilesEventsSeeder::class);
-        $this->call(MovieSeeder::class);
-        $this->call(TimesSeeder::class);
-        $this->call(MovieTimesSeeder::class);
+        //$this->call(PharmacySeeder::class);
+        //$this->call(SourceEventsSeeder::class);
+        //$this->call(EventsSeeder::class);
+        //$this->call(FilesEventsSeeder::class);
+        //$this->call(MovieSeeder::class);
+        //$this->call(TimesSeeder::class);
+        //$this->call(MovieTimesSeeder::class);
+
+        $this->call(SourcesNewsSeeder::class);
+        $this->call(NewsSeeder::class);
+
     }
 }
