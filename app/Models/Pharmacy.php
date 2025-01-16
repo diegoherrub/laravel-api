@@ -11,10 +11,12 @@ class Pharmacy extends Model
 
     protected $fillable = [
         'name_pharmacy',
-        'range_date',
         'location',
-        'phone',
-        'day',
-        'month',
+        'phone'
     ];
+
+    public function pharmaciesSchedules(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(PharmaciesSchedule::class, 'pharmacy_id');
+    }
 }

@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PharmaciesResource;
 use App\Models\Pharmacy;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
 
 class PharmacyController extends Controller
 {
     public function index(): \Illuminate\Http\JsonResponse
     {
-        return response()->json(Pharmacy::all());
+        $pharmacies = Pharmacy::with('pharmaciesSchedules')->get();
+        return response()->json(PharmaciesResource::collection($pharmacies));
     }
 
     public function getByMonth($month): \Illuminate\Http\JsonResponse
@@ -21,14 +21,18 @@ class PharmacyController extends Controller
 
         $month = (int)$month;
 
-        $pharmacies = Pharmacy::where('month', $month)
-            ->orderByRaw('CAST(day AS UNSIGNED) ASC')
-            ->get();
+        // Filtrar farmacias que tengan horarios para el mes proporcionado
+        $pharmacies = Pharmacy::whereHas('pharmaciesSchedules', function ($query) use ($month) {
+            $query->where('month', $month);
+        })->with(['pharmaciesSchedules' => function ($query) use ($month) {
+            $query->where('month', $month);
+        }])->get();
 
         if ($pharmacies->isEmpty()) {
             return response()->json(['message' => 'No se encontraron farmacias para este mes.'], 404);
         }
 
-        return response()->json($pharmacies, 200);
+        return response()->json(PharmaciesResource::collection($pharmacies));
     }
+
 }

@@ -20,9 +20,8 @@ class DatabaseSeeder extends Seeder
         //$this->call(MovieSeeder::class);
         //$this->call(TimesSeeder::class);
         //$this->call(MovieTimesSeeder::class);
-
-        $this->call(SourcesNewsSeeder::class);
-        $this->call(NewsSeeder::class);
+        //$this->call(SourcesNewsSeeder::class);
+        //$this->call(NewsSeeder::class);
 
     }
 }
