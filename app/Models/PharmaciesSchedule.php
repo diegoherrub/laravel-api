@@ -13,7 +13,9 @@ class PharmaciesSchedule extends Model
         'pharmacy_id',
         'range_date',
         'day',
-        'month'
+        'month',
+        'created_at',
+        'updated_at'
     ];
 
     public function pharmacy(): \Illuminate\Database\Eloquent\Relations\BelongsTo

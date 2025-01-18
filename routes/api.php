@@ -19,6 +19,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('pharmacies', PharmacyController::class);
 Route::get('pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']);
-
+Route::get('pharmacies/today-and-next', [PharmacyController::class, 'getTodayAndNextPharmacies']);
+Route::apiResource('pharmacies', PharmacyController::class);
