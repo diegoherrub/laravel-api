@@ -19,6 +19,6 @@ class Pharmacy extends Model
 
     public function pharmaciesSchedules(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
-        return $this->hasMany(PharmaciesSchedule::class, 'pharmacy_id');
+        return $this->hasMany(PharmaciesSchedules::class, 'pharmacy_id');
     }
 }

@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EventsController;
+use App\Http\Controllers\MoviesController;
 use App\Http\Controllers\PharmacyController;
 
 /*
@@ -22,3 +24,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']);
 Route::get('pharmacies/today-and-next', [PharmacyController::class, 'getTodayAndNextPharmacies']);
 Route::apiResource('pharmacies', PharmacyController::class);
+
+Route::apiResource('events', EventsController::class);
+
+Route::apiResource('movies', MoviesController::class);
