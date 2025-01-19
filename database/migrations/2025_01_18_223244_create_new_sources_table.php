@@ -8,18 +8,17 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('movies_times', function (Blueprint $table) {
+        Schema::create('new_sources', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('movie_id')
-                ->constrained('movies')
-                ->onDelete('cascade');
-            $table->string('time', 32);
+            $table->string('name', 255);
+            $table->string('url_image', 128);
+            $table->string('url_source', 128);
             $table->timestamps();
         });
     }
 
     public function down(): void
     {
-        Schema::dropIfExists('movies_times');
+        Schema::dropIfExists('new_sources');
     }
 };

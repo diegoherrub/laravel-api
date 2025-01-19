@@ -23,6 +23,7 @@ class PharmaciesResource extends JsonResource
                     'range_date' => $schedule->range_date,
                     'day' => $schedule->day,
                     'month' => $schedule->month,
+                    'year' => $schedule->year,
                     'created_at' => $schedule->created_at,
                     'updated_at' => $schedule->updated_at,
                 ];

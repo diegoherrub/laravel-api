@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventsController;
@@ -28,3 +29,5 @@ Route::apiResource('pharmacies', PharmacyController::class);
 Route::apiResource('events', EventsController::class);
 
 Route::apiResource('movies', MoviesController::class);
+
+Route::apiResource('news', NewsController::class);

@@ -6,24 +6,18 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
     public function up(): void
     {
         Schema::create('events_files', function (Blueprint $table) {
             $table->id();
             $table->foreignId('event_id')
-            ->constrained('events')
-            ->onDelete('cascade');
+                ->constrained('events')
+                ->onDelete('cascade');
             $table->string('url_files', 255);
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('events_files');

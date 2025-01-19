@@ -14,8 +14,8 @@ return new class extends Migration
             $table->string('range_date', 32);
             $table->unsignedInteger('day');
             $table->unsignedInteger('month');
+            $table->unsignedInteger('year');
             $table->timestamps();
-
             $table->foreign('pharmacy_id')->references('id')->on('pharmacies')->onDelete('cascade');
         });
     }

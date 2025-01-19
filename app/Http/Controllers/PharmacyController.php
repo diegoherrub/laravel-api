@@ -39,41 +39,37 @@ class PharmacyController extends Controller
             $currentDate = Carbon::now();
             $currentDay = $currentDate->day;
             $currentMonth = $currentDate->month;
+            $currentYear = $currentDate->year;
 
-            $nextPharmacies = collect(); // Colección para almacenar resultados
+            $nextPharmacies = collect();
             $maxResults = 8;
 
             while ($nextPharmacies->count() < $maxResults) {
-                // Consultar farmacias del día actual en el bucle
-                $dailyPharmacies = Pharmacy::whereHas('pharmaciesSchedules', function ($query) use ($currentMonth, $currentDay) {
+                $dailyPharmacies = Pharmacy::whereHas('pharmaciesSchedules', function ($query) use ($currentMonth, $currentDay, $currentYear) {
                     $query->where('month', $currentMonth)
-                        ->where('day', $currentDay);
+                        ->where('day', $currentDay)
+                        ->where('year', $currentYear); // Asegurarse de filtrar por año también
                 })
-                    ->with(['pharmaciesSchedules' => function ($query) use ($currentMonth, $currentDay) {
+                    ->with(['pharmaciesSchedules' => function ($query) use ($currentMonth, $currentDay, $currentYear) {
                         $query->where('month', $currentMonth)
                             ->where('day', $currentDay)
-                            ->limit(1); // Un horario relevante por farmacia
+                            ->where('year', $currentYear)
+                            ->limit(1);
                     }])
                     ->get();
 
-                // Agregar resultados a la colección
                 $nextPharmacies = $nextPharmacies->merge($dailyPharmacies);
-
-                // Incrementar el día
                 $currentDay++;
 
-                // Pasar al siguiente mes si se superan los días del mes actual
-                if ($currentDay > $currentDate->daysInMonth) {
-                    $currentDay = 1; // Reiniciar día
-                    $currentMonth++; // Pasar al siguiente mes
-                    $currentDate->addMonth(); // Actualizar el objeto Carbon para reflejar el nuevo mes
+                if ($currentDay > Carbon::create($currentYear, $currentMonth)->daysInMonth) {
+                    $currentDay = 1;
+                    $currentMonth++;
                 }
 
-                // Salir si se superan los meses del año
                 if ($currentMonth > 12) {
-                    break;
+                    $currentMonth = 1;
+                    $currentYear++;
                 }
-                // TODO - hacer que pase al año siguiente
             }
 
             return response()->json(PharmaciesResource::collection($nextPharmacies), 200);
