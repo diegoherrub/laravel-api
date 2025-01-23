@@ -26,8 +26,10 @@ Route::get('pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']
 Route::get('pharmacies/today-and-next', [PharmacyController::class, 'getTodayAndNextPharmacies']);
 Route::apiResource('pharmacies', PharmacyController::class);
 
+Route::get('events/month/{month?}', [EventsController::class, 'getEventsByMonth']);
 Route::apiResource('events', EventsController::class);
 
+Route::get('movie/{id}', [MoviesController::class, 'getById']);
 Route::apiResource('movies', MoviesController::class);
 
 Route::apiResource('news', NewsController::class);

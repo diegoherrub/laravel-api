@@ -14,4 +14,15 @@ class MoviesController extends Controller
         return response()->json(MovieResource::collection($movies));
     }
 
+    public function getById($movieId): \Illuminate\Http\JsonResponse
+    {
+        $movie = Movies::with('movieTimes')->find($movieId);
+
+        if (!$movie) {
+            return response()->json(['message' => "No se encontraron películas con este id: $movieId"], 404);
+        }
+
+        return response()->json(new MovieResource($movie));
+    }
+
 }
