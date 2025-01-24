@@ -13,6 +13,7 @@ class Events extends Model
         'title',
         'url_source',
         'url_image',
+        'description',
         'date_start',
         'date_end',
     ];

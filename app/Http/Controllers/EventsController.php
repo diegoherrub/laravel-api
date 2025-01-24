@@ -34,14 +34,6 @@ class EventsController extends Controller
             ->get();
     }
 
-    private static function formatEventDates($events): void
-    {
-        $events->each(function ($event) {
-            $event->date_start = Carbon::parse($event->date_start)->format('d/m/Y');
-            $event->date_end = Carbon::parse($event->date_end)->format('d/m/Y');
-        });
-    }
-
     public function getEventsByMonth(?string $month = null): \Illuminate\Http\JsonResponse
     {
         $this->setLocale();
@@ -51,11 +43,10 @@ class EventsController extends Controller
                 return response()->json(['error' => 'Mes inválido. Debe ser un número entre 1 y 12.'], 400);
             }
 
-            $events = self::fetchEventsByMonth($month);
+            $events = $this->fetchEventsByMonth($month);
             if ($events->isEmpty()) {
                 return response()->json(['message' => 'No hay eventos para este mes.'], 404);
             }
-            self::formatEventDates($events);
 
             $monthName = Carbon::createFromDate(null, $month)->translatedFormat('F Y');
 
@@ -64,12 +55,13 @@ class EventsController extends Controller
                 'events' => EventsResource::collection($events),
             ]);
         } else {
-            $events = self::fetchAllEvents();
+            $events = $this->fetchAllEvents();
 
             if ($events->isEmpty()) {
                 return response()->json(['message' => 'No hay eventos disponibles.'], 404);
             }
 
+            // Agrupación por mes
             $groupedEvents = $events->groupBy(function ($event) {
                 return Carbon::parse($event->date_start)->format('Y-m');
             });
@@ -77,7 +69,6 @@ class EventsController extends Controller
             $response = [];
             foreach ($groupedEvents as $monthYear => $monthEvents) {
                 $monthName = Carbon::parse($monthYear)->translatedFormat('F Y');
-                self::formatEventDates($monthEvents);
 
                 $response[] = [
                     'month' => $monthName,
@@ -88,4 +79,5 @@ class EventsController extends Controller
             return response()->json($response, 200);
         }
     }
+
 }
