@@ -14,9 +14,44 @@ class PharmacyController extends Controller
         return response()->json(PharmaciesResource::collection($pharmacies));
     }
 
+    public function getPharmacyById($id): \Illuminate\Http\JsonResponse
+    {
+        $pharmacy = Pharmacy::with('pharmaciesSchedules')->find($id);
+        if (!$pharmacy) {
+            return response()->json(['message' => "No hay ninguna farmacia con el ID $id."], 404);
+        }
+
+        return response()->json(new PharmaciesResource($pharmacy));
+    }
+
+    public function getPharmacyForToday(): \Illuminate\Http\JsonResponse
+    {
+        // Obtener el día y mes actuales
+        $today = now();
+        $currentDay = $today->day;
+        $currentMonth = $today->month;
+
+        // Buscar farmacias que tengan horarios para el día y mes actuales
+        $pharmacies = Pharmacy::with(['pharmaciesSchedules' => function ($query) use ($currentDay, $currentMonth) {
+            $query->where('day', $currentDay)
+                ->where('month', $currentMonth);
+        }])->whereHas('pharmaciesSchedules', function ($query) use ($currentDay, $currentMonth) {
+            $query->where('day', $currentDay)
+                ->where('month', $currentMonth);
+        })->get();
+
+        // Validar si no se encuentran farmacias
+        if ($pharmacies->isEmpty()) {
+            return response()->json(['message' => "No hay farmacias de guardia con horarios disponibles para hoy."], 404);
+        }
+
+        // Retornar las farmacias y sus horarios para hoy
+        return response()->json(PharmaciesResource::collection($pharmacies));
+    }
+
     public function getByMonth($month): \Illuminate\Http\JsonResponse
     {
-        if (!is_numeric($month) || $month < 1 || $month > 12) {
+        if (\Utils::intIsValidMonth($month) === false) {
             return response()->json(['error' => 'Mes inválido. Debe ser un número entre 1 y 12.'], 400);
         }
 
