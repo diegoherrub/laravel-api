@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\EstablishmentController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\PhoneController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventsController;
@@ -39,4 +40,6 @@ Route::apiResource('news', NewsController::class);
 
 Route::get('establishments/type/{type}', [EstablishmentController::class, 'getByType']);
 Route::apiResource('establishments', EstablishmentController::class);
+
+Route::apiResource('phones', PhoneController::class);
 
