@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Resources\EventsResource;
 use App\Models\Events;
 use Carbon\Carbon;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class EventsController extends Controller
 {
@@ -80,4 +82,47 @@ class EventsController extends Controller
         }
     }
 
+    public function getEventsByDateRange(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $this->setLocale();
+
+        // Validar parámetros
+        $validator = Validator::make($request->all(), [
+            'start' => 'required|date',
+            'end' => 'required|date|after_or_equal:start'
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'error' => 'Parámetros inválidos',
+                'details' => $validator->errors()
+            ], 400);
+        }
+
+        // Obtener fechas
+        $start = $request->input('start');
+        $end = $request->input('end');
+
+        // Consulta para eventos que comienzan dentro del rango
+        $events = Events::with('eventSources', 'eventFiles')
+            ->whereBetween('date_start', [$start, $end])
+            ->orderBy('date_start', 'asc')
+            ->get();
+
+        // Si se desea incluir eventos que se solapen con el rango:
+        // $events = Events::where(function($query) use ($start, $end) {
+        //     $query->whereBetween('date_start', [$start, $end])
+        //           ->orWhereBetween('date_end', [$start, $end]);
+        // })->get();
+
+        if ($events->isEmpty()) {
+            return response()->json(['message' => 'No hay eventos en este rango de fechas.'], 404);
+        }
+
+        return response()->json([
+            'start' => $start,
+            'end' => $end,
+            'events' => EventsResource::collection($events)
+        ]);
+    }
 }
