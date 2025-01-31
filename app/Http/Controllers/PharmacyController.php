@@ -3,16 +3,34 @@
 namespace App\Http\Controllers;
 
 use App\Http\Resources\PharmaciesResource;
+use App\Http\Resources\PharmaciesSchedulesResource;
+use App\Models\PharmaciesSchedules;
 use App\Models\Pharmacy;
 use Carbon\Carbon;
+use Illuminate\Console\Scheduling\Schedule;
+use Illuminate\Support\Facades\DB;
 
 class PharmacyController extends Controller
 {
     public function index(): \Illuminate\Http\JsonResponse
     {
-        $pharmacies = Pharmacy::with('pharmaciesSchedules')->get();
+        $pharmacies = Pharmacy::all();
         return response()->json(PharmaciesResource::collection($pharmacies));
     }
+
+    public function getSchedulesOnCall(): \Illuminate\Http\JsonResponse
+    {
+        $today = Carbon::today();
+        $sevenDaysFromNow = Carbon::today()->addDays(7);
+        $schedules = DB::table('pharmacies_schedules')
+            ->select('pharmacy_id', 'schedule_on_call')
+            ->whereBetween('schedule_on_call', [$today->toDateString(), $sevenDaysFromNow->toDateString()])
+            ->orderBy('schedule_on_call', 'asc')
+            ->get();
+
+        return response()->json(PharmaciesSchedulesResource::collection($schedules));
+    }
+
 
     public function getPharmacyById($id): \Illuminate\Http\JsonResponse
     {

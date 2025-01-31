@@ -11,15 +11,6 @@ class PharmaciesSchedules extends Model
 
     protected $fillable = [
         'pharmacy_id',
-        'range_date',
-        'day',
-        'month',
-        'created_at',
-        'updated_at'
+        'schedule_on_call'
     ];
-
-    public function pharmacy(): \Illuminate\Database\Eloquent\Relations\BelongsTo
-    {
-        return $this->belongsTo(Pharmacy::class);
-    }
 }

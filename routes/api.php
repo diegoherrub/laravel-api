@@ -28,6 +28,7 @@ Route::get('pharmacy/today', [PharmacyController::class, 'getPharmacyForToday'])
 Route::get('pharmacy/{id}', [PharmacyController::class, 'getPharmacyById']);
 Route::get('pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']);
 Route::get('pharmacies/today-and-next', [PharmacyController::class, 'getTodayAndNextPharmacies']);
+Route::get('pharmacies/schedules-on-call', [PharmacyController::class, 'getSchedulesOnCall']);
 Route::apiResource('pharmacies', PharmacyController::class);
 
 Route::get('/events/range', [EventsController::class, 'getEventsByDateRange']);
