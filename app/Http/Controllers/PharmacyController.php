@@ -20,10 +20,20 @@ class PharmacyController extends Controller
 
     public function getSchedulesOnCall(): \Illuminate\Http\JsonResponse
     {
+        $schedules = DB::table('pharmacies_schedules')
+            ->select('schedule_id','id_pharmacy', 'schedule_on_call')
+            ->orderBy('schedule_on_call', 'asc')
+            ->get();
+
+        return response()->json(PharmaciesSchedulesResource::collection($schedules));
+    }
+
+    public function getWeekSchedulesOnCall(): \Illuminate\Http\JsonResponse
+    {
         $today = Carbon::today();
         $sevenDaysFromNow = Carbon::today()->addDays(7);
         $schedules = DB::table('pharmacies_schedules')
-            ->select('pharmacy_id', 'schedule_on_call')
+            ->select('schedule_id','id_pharmacy', 'schedule_on_call')
             ->whereBetween('schedule_on_call', [$today->toDateString(), $sevenDaysFromNow->toDateString()])
             ->orderBy('schedule_on_call', 'asc')
             ->get();
