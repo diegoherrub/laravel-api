@@ -24,11 +24,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('pharmacy/today', [PharmacyController::class, 'getPharmacyForToday']);
-Route::get('pharmacy/{id}', [PharmacyController::class, 'getPharmacyById']);
-Route::get('pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']);
-Route::get('pharmacies/today-and-next', [PharmacyController::class, 'getTodayAndNextPharmacies']);
-Route::get('pharmacies/week-schedules-on-call', [PharmacyController::class, 'getWeekSchedulesOnCall']);
+// Route::get('pharmacy/today', [PharmacyController::class, 'getPharmacyForToday']);
+// Route::get('pharmacy/{id}', [PharmacyController::class, 'getPharmacyById']);
+// Route::get('pharmacies/month/{month}', [PharmacyController::class, 'getByMonth']);
+// Route::get('pharmacies/week-schedules-on-call', [PharmacyController::class, 'getWeekSchedulesOnCall']);
+// Route::get('pharmacies/on-call', [PharmacyController::class, 'getPharmaciesOnCall']);
 Route::get('pharmacies/schedules-on-call', [PharmacyController::class, 'getSchedulesOnCall']);
 Route::apiResource('pharmacies', PharmacyController::class);
 
